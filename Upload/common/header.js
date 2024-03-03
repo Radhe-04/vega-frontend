@@ -5,41 +5,41 @@ function setheader() {
   <nav class="text-left topBotomBordersIn clearfix">
     <ul>
       <li>
-        <a href="index.html">Home</a>
+        <a href="https://vega-frontend.onrender.com/">Home</a>
       </li>
   
       <li>
-        <a href="about2.html">About</a>
+        <a href="https://vega-frontend.onrender.com/about">About</a>
       </li>
   
       <li>
-        <a href="portfolio2.html">Portfolio</a>
+        <a href="https://vega-frontend.onrender.com/portfolio">Portfolio</a>
         <span class="toggle-icon"></span>
         <ul>
-          <li><a href="portfolio2.html">Photos</a></li>
-          <li><a href="portfolio-video.html">Videos</a></li>
+          <li><a href="https://vega-frontend.onrender.com/portfolio">Photos</a></li>
+          <li><a href="https://vega-frontend.onrender.com/portfolio-video">Videos</a></li>
         </ul>
       </li>
   
       <li>
-        <a href="services1.html">Services</a>
+        <a href="https://vega-frontend.onrender.com/service">Services</a>
       </li>
   
       <li>
-        <a href="blog2.html">Blog</a>
+        <a href="https://vega-frontend.onrender.com/blog">Blog</a>
       </li>
   
       <li>
-        <a href="clients.html">Our Clients</a>
+        <a href="https://vega-frontend.onrender.com/clients">Our Clients</a>
         <span class="toggle-icon"></span>
         <ul>
-          <li><a href="clients.html">OurClients</a></li>
-          <li><a href="testinomial.html">Testimonials</a></li>
+          <li><a href="https://vega-frontend.onrender.com/clients">OurClients</a></li>
+          <li><a href="https://vega-frontend.onrender.com/tesinomial">Testimonials</a></li>
         </ul>
       </li>
   
       <li>
-        <a href="contacts1.html">Contact Us</a>
+        <a href="https://vega-frontend.onrender.com/contact">Contact Us</a>
       </li>
     </ul>
   </nav>`
