@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+
+  <!-- fonts collection 8 -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400italic,700italic" rel="stylesheet"
+    type="text/css" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <title>Vega | Blogs</title>
+  <style>
+    .button-27 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      padding: 5px 8px;
+      width: 30%;
+      height: 2.5rem;
+      appearance: none;
+      background-color: transparent;
+      border: 2px solid #1a1a1a;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: #3b3b3b;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      outline: none;
+      text-align: center;
+      text-decoration: none;
+      transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      will-change: transform;
+    }
+
+    .button-27:disabled {
+      pointer-events: none;
+    }
+
+    .button-27:hover {
+      color: #fff;
+      background-color: #1a1a1a;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      transform: translateY(-2px);
+    }
+
+    .button-27:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body class="fonts-8">
+  <!-- LOADER -->
+  <div id="loader-wrapper"></div>
+
+  <div id="content-block">
+    <!-- HEADER -->
+    <header class="type-4 light fixed">
+      <div class="wide-container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-2">
+            <!-- <a class="logo"><img src="logo/Logo-02.png" alt="" /></a>   -->
+            <a class="logo" href="index.html"><img src="logo/Logo-02.png" alt="" /></a>
+          </div>
+          <div class="col-xs-6 col-sm-10 text-right">
+            <div class="navigation-wrapper">
+              <!-- <a class="logo responsive"><img src="logo/Logo-02.png" alt="" /></a> -->
+
+              <div class="navigation-overflow header_container"></div>
+
+              <div class="follow style-1">
+                <span class="title">Follow me:</span>
+                <a class="entry" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="hamburger-icon open-navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <!-- <div class="hamburger-icon open-overlay" data-rel="1">
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                              </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="close-layer toggle-visibility">
+        <div class="button-close"></div>
+      </div>
+    </header>
+
+    <div class="fixed-background" style="
+          background-image: url(photos/pexels-asad-photo-maldives-1024993.jpeg);
+        ">
+      <div class="page-height">
+        <div class="full-size-banner-entry full-size valign-middle">
+          <div class="valign-text-wrapper text-center">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="h2 light"><b>OUR BLOGS</b></div>
+                <div class="empty-space col-xs-b15"></div>
+                <div class="banner-max-width">
+                  <div class="simple-article large light transparent"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="loader_div"><span class="loader"></span></div>
+    <div class="container">
+
+
+      <div class="empty-space col-xs-b55 col-sm-b110"></div>
+
+
+      <div class="row no_loader">
+        <div class="blogs"></div>
+      </div>
+
+      <!-- <div class="empty-space col-xs-b25 col-sm-b50"></div> -->
+
+      <!-- <div class="page-pagination grey">
+          <a>previous</a>
+          <a class="active">1</a>
+          <a>2</a>
+          <a>3</a>
+          <a>4</a>
+          <a>...</a>
+          <a>next</a>
+        </div> -->
+    </div>
+
+    <!-- FOOTER -->
+    <div class="grey-line"></div>
+    <footer class="dark">
+      <div class="wide-container-fluid wide-paddings text-center">
+          <div class="row">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-4 col-xs-b15 col-sm-b0">
+                          <div class="footer-article simple-article grey small">
+                              Vega Creative Studio <br>
+                              213 - 214, Paramount Com. Complex, 3 - Rajputpara, <br>
+                              Nr. RMC Chowk, Rajkot - 360001. Gujarat, INDIA. <br>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-b15 col-sm-b0">
+                          <div class="footer-article simple-article grey small">
+                              <a class="mouseover-simple" href="tel:+919825244154">tel. +919825244154</a>
+                              <a class="mouseover-simple" href="tel:+918000044154">tel. +918000044154</a>
+                              <br />
+                              <a class="mouseover-simple" href="mailto:info@vegacreativestudio.in">e-mail:
+                                  info@vegacreativestudio.in</a>
+                              <a class="mouseover-simple" href="mailto:vegacreativestudio@gmail.com">e-mail:
+                                  vegacreativestudio@gmail.com</a>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-b15 col-sm-b0">
+                          <div class="follow style-1">
+                              <a class="entry" href="https://www.instagram.com/" target="_blank"><i
+                                      class="fa fa-instagram"></i></a>
+                              <a class="entry" href="https://www.facebook.com/" target="_blank"><i
+                                      class="fa fa-facebook"></i></a>
+                              <a class="entry" href="https://www.pinterest.com/" target="_blank"><i
+                                      class="fa fa-pinterest-p"></i></a>
+                              <a class="entry" href="https://twitter.com/" target="_blank"><i
+                                      class="fa fa-twitter"></i></a>
+                              <a class="entry" href="https://plus.google.com/" target="_blank"><i
+                                      class="fa fa-google-plus"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+  </footer>
+  </div>
+
+  <script src="api_call/blog2.js"></script>
+  <script src="./common/header.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/swiper.jquery.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
