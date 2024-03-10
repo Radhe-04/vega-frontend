@@ -1,5 +1,5 @@
 const express = require("express");
-
+require('dotenv').config()
 const cors = require('cors');
 const engines = require('consolidate');
 const path = require('path')
@@ -7,6 +7,7 @@ const parentDir = path.resolve(__dirname, '..');
 
 
 const app = express();
+const PORT = process.env.PORT || 3000
 
 app.use(cors());
 
@@ -46,7 +47,8 @@ app.get('/contact', function(req, res) {
 });
 
 
-
+console.log(parentDir, 'parentDir')
+console.log(__dirname, 'dirname'),
 app.listen(3000, () => {
-  console.log("app is running");
+  console.log("app is runningon port : " + PORT);
 });
