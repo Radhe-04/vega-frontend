@@ -5,41 +5,41 @@ function setheader() {
   <nav class="text-left topBotomBordersIn clearfix">
     <ul>
       <li>
-        <a href="https://vega-frontend.onrender.com/">Home</a>
+        <a href="http://15.206.237.42:3000/">Home</a>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/about">About</a>
+        <a href="http://15.206.237.42:3000/about">About</a>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/portfolio">Portfolio</a>
+        <a href="http://15.206.237.42:3000/portfolio">Portfolio</a>
         <span class="toggle-icon"></span>
         <ul>
-          <li><a href="https://vega-frontend.onrender.com/portfolio">Photos</a></li>
-          <li><a href="https://vega-frontend.onrender.com/portfolio-video">Videos</a></li>
+          <li><a href="http://15.206.237.42:3000/portfolio">Photos</a></li>
+          <li><a href="http://15.206.237.42:3000/portfolio-video">Videos</a></li>
         </ul>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/service">Services</a>
+        <a href="http://15.206.237.42:3000/service">Services</a>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/blog">Blog</a>
+        <a href="http://15.206.237.42:3000/blog">Blog</a>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/clients">Our Clients</a>
+        <a href="http://15.206.237.42:3000/clients">Our Clients</a>
         <span class="toggle-icon"></span>
         <ul>
-          <li><a href="https://vega-frontend.onrender.com/clients">OurClients</a></li>
-          <li><a href="https://vega-frontend.onrender.com/tesinomial">Testimonials</a></li>
+          <li><a href="http://15.206.237.42:3000/clients">OurClients</a></li>
+          <li><a href="http://15.206.237.42:3000/tesinomial">Testimonials</a></li>
         </ul>
       </li>
   
       <li>
-        <a href="https://vega-frontend.onrender.com/contact">Contact Us</a>
+        <a href="http://15.206.237.42:3000/contact">Contact Us</a>
       </li>
     </ul>
   </nav>`
